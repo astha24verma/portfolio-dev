@@ -56,7 +56,7 @@ const EmailSection = () => {
           <input
             type="hidden"
             name="access_key"
-            value="eb38c88a-2293-4e5b-a265-be3496abbf20"
+            value={process.env.RESEND_API_KEY}
           />
           <input
             type="hidden"
